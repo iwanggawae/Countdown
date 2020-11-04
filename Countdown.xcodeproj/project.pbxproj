@@ -13,6 +13,7 @@
 		31487E84254F1D2C000F0923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31487E82254F1D2C000F0923 /* Main.storyboard */; };
 		31487E86254F1D2D000F0923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31487E85254F1D2D000F0923 /* Assets.xcassets */; };
 		31487E89254F1D2D000F0923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31487E87254F1D2D000F0923 /* LaunchScreen.storyboard */; };
+		31487E92254F47A1000F0923 /* notKlik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 31487E91254F47A1000F0923 /* notKlik.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		31487E85254F1D2D000F0923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31487E88254F1D2D000F0923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31487E8A254F1D2D000F0923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31487E91254F47A1000F0923 /* notKlik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notKlik.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		31487E7B254F1D2C000F0923 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				31487E91254F47A1000F0923 /* notKlik.mp3 */,
 				31487E7C254F1D2C000F0923 /* AppDelegate.swift */,
 				31487E7E254F1D2C000F0923 /* SceneDelegate.swift */,
 				31487E80254F1D2C000F0923 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31487E89254F1D2D000F0923 /* LaunchScreen.storyboard in Resources */,
+				31487E92254F47A1000F0923 /* notKlik.mp3 in Resources */,
 				31487E86254F1D2D000F0923 /* Assets.xcassets in Resources */,
 				31487E84254F1D2C000F0923 /* Main.storyboard in Resources */,
 			);
