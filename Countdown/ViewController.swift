@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var startOutlet: UIButton!
     @IBAction func start(_ sender: Any)
     {
-       timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.counter), userInfo: nil, repeats: true )
+       
         sliderOutlet.isHidden = true
         startOutlet.isHidden = true
     }
@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         {
             timer.invalidate()
             sfx.play()
+            startOutlet.isHidden = false
         }
     }
     @IBOutlet weak var stopOutlet: UIButton!
@@ -59,6 +60,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        startOutlet.isHidden = true
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.counter), userInfo: nil, repeats: true )
+        if (seconds == 0)  {
+            startOutlet.isHidden = false
+        } else {
+            
+        }
         
         do
         {
